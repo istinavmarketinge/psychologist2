@@ -1,0 +1,38 @@
+.header-menu-mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all .3s ease;
+    font-family: 'Roboto';
+    &__in {
+        height: 100%;
+        width: 320px;
+        background: #D9D9D9;
+        transform: translateX(-100%);
+        transition: all .3s ease;
+    }
+    &__closer {
+        text-align: end;
+        padding: 15px;
+    }
+    &__list a{
+        list-style: none;
+        font-size: 30px;
+        color: #324659;
+        text-decoration: none;
+    }
+    &__list li {
+        padding-bottom: 10px;
+    }
+}
+.header-menu-mobile:not(.isOpened) {
+    background: transparent;
+    pointer-events: none;
+}
+.header-menu-mobile.isOpened .header-menu-mobile__in {
+    transform: translateX(0);
+}
