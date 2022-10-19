@@ -8,6 +8,7 @@
     padding: 0 vw(242) 0 vw(223);
     @media(max-width:650px) {
         flex-direction: column;
+        padding: vw(76) vw(81) vw(130) vw(141);
     }
     &__container {
         width: 100%;
@@ -15,9 +16,9 @@
         font-family: 'Roboto';
         color: #324659;
         line-height: 170%;
-        font-size: vw(16);
+        font-size: vw(20);
         @media(max-width:1025px) {
-            font-size: 16px;
+            font-size: 20px;
         }
     }
     &__item {
@@ -28,6 +29,10 @@
     }
     &__item h2 {
         padding-bottom: vw(34);
+        font-size: vw(24);
+        @media(max-width:1025px) {
+            font-size: 24px;
+        }
     }
     &__item span {
         display: block;

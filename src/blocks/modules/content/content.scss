@@ -15,7 +15,7 @@
         padding-bottom: vw(75);
         margin: 0;
         @media(max-width:1025px) {
-            padding-bottom: vw(40);
+            padding-bottom: 35px;
         }
         @media(max-width:1025px) {
             font-size: 30px;
@@ -28,6 +28,7 @@
         padding-bottom: vw(32);
         @media(max-width:1025px) {
             font-size: 20px;
+            padding-bottom: 20px;
         }
     }
     &__zapros {
@@ -75,10 +76,23 @@
     }
     &__bottom div {
         padding-bottom: vw(31);
+        @media(max-width:650px) {
+            padding-bottom: 31px;
+        }
+    }
+    &__bottom h2 {
+        font-size: vw(20)!important;
+        @media(max-width:1025px) {
+            font-size: 20px!important;
+        }
     }
 }
 .content-two h2 {
     padding-bottom: vw(40);
+    font-size: vw(24);
+    @media(max-width:1025px) {
+        font-size: 24px;
+    }
 }
 .content-two-top {
     &__left, &__rigth {

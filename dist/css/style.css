@@ -548,8 +548,13 @@ a:hover {
   padding-bottom: 1.6145833333vw;
 }
 
+.content-two__bottom h2 {
+  font-size: 1.0416666667vw !important;
+}
+
 .content-two h2 {
   padding-bottom: 2.0833333333vw;
+  font-size: 1.25vw;
 }
 
 .content-two-top__left,
@@ -585,7 +590,7 @@ a:hover {
   font-family: "Roboto";
   color: #324659;
   line-height: 170%;
-  font-size: 0.8333333333vw;
+  font-size: 1.0416666667vw;
 }
 
 .about__item {
@@ -594,6 +599,7 @@ a:hover {
 
 .about__item h2 {
   padding-bottom: 1.7708333333vw;
+  font-size: 1.25vw;
 }
 
 .about__item span {
@@ -722,7 +728,7 @@ a:hover {
   }
 
   .content__title {
-    padding-bottom: 2.0833333333vw;
+    padding-bottom: 35px;
   }
 
   .content__title {
@@ -731,6 +737,7 @@ a:hover {
 
   .content__text {
     font-size: 20px;
+    padding-bottom: 20px;
   }
 
   .content__list {
@@ -741,12 +748,24 @@ a:hover {
     font-size: 20px;
   }
 
+  .content-two__bottom h2 {
+    font-size: 20px !important;
+  }
+
+  .content-two h2 {
+    font-size: 24px;
+  }
+
   .section--none {
     display: none;
   }
 
   .about__container {
-    font-size: 16px;
+    font-size: 20px;
+  }
+
+  .about__item h2 {
+    font-size: 24px;
   }
 
   .contacts__flex {
@@ -804,6 +823,10 @@ a:hover {
     flex-direction: column;
   }
 
+  .content-two__bottom div {
+    padding-bottom: 31px;
+  }
+
   .content-two-top__left,
   .content-two-top__rigth {
     width: 100%;
@@ -815,6 +838,7 @@ a:hover {
 
   .about {
     flex-direction: column;
+    padding: 3.9583333333vw 4.21875vw 6.7708333333vw 7.34375vw;
   }
 
   .about__item {
@@ -831,7 +855,7 @@ a:hover {
 
   .contacts__flex {
     margin: 0;
-    padding-left: 35px;
+    padding-left: 20px;
   }
 
   .contacts__item img {
