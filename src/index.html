@@ -10,12 +10,27 @@
 </head>
 <body>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
-        @@include('blocks/modules/header/header.html', {})
-        @@include('blocks/modules/section1/section1.html', {})
-        @@include('blocks/modules/section2/section2.html', {})
-        @@include('blocks/modules/section3/section3.html', {})
-        @@include('blocks/modules/section4/section4.html', {})
-        @@include('blocks/modules/mobile/mobile.html', {})
+    </div>
+    <div class="content">
+        <aside class="left-block">
+            <div class="left-container">
+                @@include('blocks/modules/logo/logo.html', {})
+                @@include('blocks/modules/left-menu/left-menu.html', {})
+                @@include('blocks/modules/search/search.html', {})
+                @@include('blocks/modules/mail/mail.html', {})
+                @@include('blocks/modules/currencies/currencies.html', {})
+                @@include('blocks/modules/banner/banner.html', {})
+                @@include('blocks/modules/news-aside/news-aside.html', {})
+                @@include('blocks/modules/business/business.html', {})
+                @@include('blocks/modules/brands/brands.html', {})
+
+
+
+            </div>
+
+        </aside>
+        <main class="content-block"></main>
+        <aside class="right-block"></aside>
     </div>
     <script src="js/app.min.js"></script>
 </body>

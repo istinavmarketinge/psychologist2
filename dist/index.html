@@ -5,180 +5,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?_v=20221019135803">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221019135803" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css?_v=20221102154810">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&_v=20221102154810" rel="stylesheet">
 </head>
 <body>
     <div class="wrapper" id="app" :class="{isMobile, isTablet}">
-        <header class="header">
-    <div class="header-overlay"></div>
-    <div class="container header__text">
-        <div class="header__menu-flex">
-            <div class="header__menu-flex-item">
-                <div class="header-menu-mobile-opener">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
-            <ul class="header-menu">
-            <a href="#about" class="header-menu__link">
-                <li>Обо мне</li>
-            </a>
-            <a href="#education" class="header-menu__link">
-                <li>Образование</li>
-            </a>
-            <a href="#conditions" class="header-menu__link">
-                <li>Условия</li>
-            </a>
-            <a href="#contacts" class="header-menu__link">
-                <li>Контакты </li>
-            </a>
-        </ul>
-        <a href="https://wa.me/79101663305" class="header-menu__icon">
-            <img src="img/svg/ws.svg" alt="">
-        </a>
-        <a href="https://tlgg.ru/@everyday365" class="header-menu__icon">
-            <img src="img/svg/telega.svg" alt="">
-        </a>
     </div>
+    <div class="content">
+        <aside class="left-block">
+            <div class="left-container">
+                <div class="logo-block">
+    <picture><source srcset="/img/icon.webp" type="image/webp"><img class="logo-block__image" src="/img/icon.png" alt="logo"></picture>
+    <div class="logo-block__name">
+        <span>Тульские</span>
+        <span>Новости</span>
     </div>
 </div>
-</header>
 
-        <section id="about" class="section">
-    <div class="section__left">
-        <div class="section__left_image">
-            <picture><source srcset="img/photo.webp" type="image/webp"><img src="img/photo.jpg" alt="photo"></picture>
-        </div>
+                <ul class="menu-list">
+    <li class="menu-list__item">
+        Аналитика
+        <div class="menu-list__numbers"> 3 </div>
+    </li>
+    <li class="menu-list__item">Общество</li>
+    <li class="menu-list__item">
+        Спорт
+        <div class="menu-list__numbers"> 3 </div>
+    </li>
+    <li class="menu-list__item">Культура</li>
+    <li class="menu-list__item">Происшествия</li>
+    <li class="menu-list__item">Ещё</li>
+</ul>
+                <form class="search">
+    <input class="search__input" name="s" placeholder="Поиск" type="search">
+    <button class="search__button" type="submit"><picture><source srcset="/img/search.webp" type="image/webp"><img src="/img/search.png" alt="search"></picture></button>
+  </form>
+                <div class="mail-block">
+    <div class="mail-block__letter">
+        <picture><source srcset="/img/mail.webp" type="image/webp"><img src="/img/mail.png" alt="mail"></picture>
+        <a href="#"><span>Подписаться на рассылку</span></a>
     </div>
-    <div class="section__right">
-        <div class="content">
-            <h2 class="content__title">Екатерина Бароева</h2>
-            <span class="content__text">Когнитивно-поведенческий психолог и схема-терапевт</span>
-            <span class="content__zapros">Запросы, с которыми я работаю:</span>
-            <ul class="content__list">
-                <li>Депрессия </li>
-                <li>Страхи, фобии, тревожные расстройства, панические атаки </li>
-                <li>Конфликты, ссоры и трудности в общении </li>
-                <li>Проблемы в отношениях: одиночество, сложности в поиске партнера </li>
-                <li>Неуверенность в себе и низкая самооценка </li>
-                <li>Сильные эмоции: гнев, стыд, вина </li>
-                <li>Поиск призвания и смысла жизни, вопросы самоопределения </li>
-            </ul>
-            <span>Консультирую клиентов от 18 лет.</span>
-        </div>
-    </div>
-</section>
-        <section id="education" class="section">
-    <div class="section__left section--none">
-        <div class="section__left_image-books">
-            <picture><source srcset="img/book.webp" type="image/webp"><img src="img/book.jpg" alt="photo"></picture>
-        </div>
-    </div>
-    <div class="section__right">
-        <div class="content-two">
-            <h2>Образование</h2>
-            <div class="content-two__blocks">
-                <div class="content-two__top">
-                    <div class="content-two-top__left">
-                        <div class="content-two__item">2003-2008. Тульский государственный университет. Специальность: психолог, преподаватель психологии.  </div>
-                    <div class="content-two__item">2019-2020. Высшая школа психологии. Когнитивно-поведенческая психотерапия и психологическое консультирование. </div>
-                    </div>
-                    <div class="content-two-top__rigth">
-                        <div class="content-two__item">2021. 1-я Всероссийская конференция с международным участием по схема-терапии, CBT форум.</div>
-                    <div class="content-two__item">2021. Ассоциация когнитивно-поведенческой психотерапии. Теория и практика схема-терапии. </div>
-                    </div>
-                </div>
-                <div class="content-two__bottom">
-                    <h2>В данный момент повышаю квалификацию: </h2>
-                    <div>2022. Ассоциация когнитивно-поведенческой психотерапии. Когнитивно-поведенческая психотерапия и психологическое консультирование. Продвинутый курс.  </div>
-                    <div>2022. Высшая школа психологии. Схема-терапия. Сертификационный курс по стандартам ISST — международного общества схема терапии.</div>
 
-                </div>
-            </div>
-        </div>
+</div>
+                <div class="currencies-block">
+    <h2 class="currencies-block__title">Курсы валют ЦБ</h2>
+    <table class="currencies-block__table">
+        <tr>
+            <td>USD</td>
+            <td>30.09</td>
+            <td>58,45</td>
+            <td>+1,24</td>
+        </tr>
+        <tr>
+            <td>EUR</td>
+            <td>30.09</td>
+            <td>56,70</td>
+            <td>+1,23</td>
+        </tr>
+        <tr>
+            <td>CNY</td>
+            <td>30.09</td>
+            <td>8,3410</td>
+            <td>+0,221</td>
+        </tr>
+    </table>
+</div>
+                <div class="banner-block">
+    <span class="banner-block__advertisement">Реклама 18+</span>
+    <h2 class="banner-block__title"><span>Наша</span>реклама <span class="green">продает</span></h2>
+    <button class="banner-block__bottom" type="submit">Заказать</button>
+    <div class="banner-block__eye">смотреть статистику</div>
+</div>
+                <div class="news-aside-block">
+    <h2 class="news-aside-block__title">Новости компаний</h2>
+    <picture><source srcset="/img/news.webp" type="image/webp"><img class="news-aside-block__image" src="/img/news.jpg" alt="image"></picture>
+    <div class="news-aside-block__item">
+        <span>01/10</span><span>10:00</span>
+        <p>Ассоциация «Совет муниципальных образований Тульской области» провела обучающий вебинар для сельских старост</p>
     </div>
-</section>
-        <section id="conditions" class="section section--contacts">
-    <div class="about__container">
-        <div class="about">
-            <div class="about__item">
-                <h2>Стоимость сессии </h2>
-                <p>Стоимость сессии 3000 ₽. Длительность — 50 минут. Стоимость может меняться, о чем я сообщаю заранее. Если вы пришли в длительную терапию, цена фиксируется на календарный год и остается неизменной для вас на этот период.  
-                </p>
-                <p>Оплата сессии предварительная, за 24 часа до ее начала или ранее. Отменить или перенести сессию можно за сутки — если предварительного предупреждения об отмене сессии не было, она оплачивается клиентом.</p>
-            </div>
-            <div class="about__item">
-                <h2>Онлайн-консультирование  </h2>
-                <p>Для онлайн-консультации вам понадобится быстрый интернет, наушники с микрофоном и ноутбук (в смартфоне есть ряд технических ограничений, его желательно не использовать). Хорошо, если рядом с вами будет питьевая вода и салфетки. </p>
-                <p>Обеспечьте себе спокойное место, где вас никто не услышит и не будет отвлекать. Важно, чтобы вы чувствовали себя безопасно. Хорошо, если у вас будет возможность делать заметки в блокнот/смартфон. </p>
-            </div>
-            <div class="about__item">
-                <h2>
-                    Варианты мессенджеров:  
-                </h2>
-                <span><b>Skype live</b>:.cid.83905f6c875cb6b0</span>
-                <span><b>Whatsapp</b> <a href="https://wa.me/79101663305">+79101663305</a></span>
-                <span><b>Telegram</b> <a href="https://tlgg.ru/@everyday365">@everyday365 </a></span>
-            </div>
-            <div class="about__item">
-                <h2>
-                    Личные встречи  
-                </h2>
-                <p>
-                    Провожу сессии в Туле, по адресу пр. Ленина 35, БЦ «Вертикаль». В связи с тем, что я периодически бываю в отъезде, уточните о  возможности оффлайн консультирования предварительно.
-
-
-                </p>
-            </div>
-        </div>
+    <div class="news-aside-block__item">
+        <span>30/09</span><span>15:50</span>
+        <p>Добавки компании «Полипласт» используются при строительстве новой трассы Москва - Казань</p>
     </div>
-</section>
-        <section id="contacts" class="section section--contacts">
-    <div class="contacts">
-        <div class="contacts__flex">
-            <a href="https://tlgg.ru/@everyday365" class="contacts__item">
-                <img src="img/svg/tg.svg" alt="">
-                <span>@everyday365</span>
-            </a>
-            <a href="https://wa.me/79101663305" class="contacts__item">
-                <img src="img/svg/wa.svg" alt="">
-                <span>+79101663305</span>
-            </a>
-            <a href="mailto:katerina.baroeva@yandex.ru" class="contacts__item">
-                <img src="img/svg/mail.svg" alt="">
-                <span>katerina.baroeva@yandex.ru</span>
-            </a>
-            <a href="https://instagram.com/katerina_baroeva" class="contacts__item ">
-                <img src="img/svg/inst.svg" alt="">
-                <span>katerina_baroeva </span>
-            </a>
-        </div>
+    <div class="news-aside-block__item">
+        <span>30/09</span><span>15:45</span>
+        <p>Какие тульские сыры ENDORF точно стоит попробовать?</p>
     </div>
-</section>
-        <div class="header-menu-mobile">
-    <div class="header-menu-mobile__in">
-        <div class="header-menu-mobile__closer">
-            <picture><source srcset="img/close.webp" type="image/webp"><img src="img/close.png" alt="close"></picture>
-        </div>
-        <ul class="header-menu-mobile__list">
-            <a href="#about" class="header-menu-mobile__link">
-                <li>Обо мне</li>
-            </a>
-            <a href="#education" class="header-menu-mobile__link">
-                <li>Образование</li>
-            </a>
-            <a href="#conditions" class="header-menu-mobile__link">
-                <li>Условия</li>
-            </a>
-            <a href="#contacts" class="header-menu-mobile__link">
-                <li>Контакты </li>
-            </a>
-        </ul>
-
+    <div class="news-aside-block__item">
+        <span>30/09</span><span>10:40</span>
+        <p>Журнал «Деловая Тула» рассказывает об итогах и перспективах развития региона</p>
     </div>
 </div>
+                <div class="news-aside-block">
+    <h2 class="news-aside-block__title">Бизнес</h2>
+    <picture><source srcset="/img/business.webp" type="image/webp"><img class="news-aside-block__image" src="/img/business.jpg" alt="image"></picture>
+    <div class="news-aside-block__item">
+        <span>01/10</span><span>10:00</span>
+        <p>Продолжается прием заявок на участие в премии «Тульский БИЗНЕС - 2022»</p>
     </div>
-    <script src="js/app.min.js?_v=20221019135803"></script>
+    <div class="news-aside-block__item">
+        <span>30/09</span><span>15:50</span>
+        <p>Александр Крючков о премии «Тульский БИЗНЕС — 2022»: Важно поддержать моральное состояние людей, которые взяли на себя</p>
+    </div>
+    <div class="news-aside-block__item">
+        <span>30/09</span><span>15:45</span>
+        <p>Назначен новый управляющий Тульским отделением Сбербанка</p>
+    </div>
+    <div class="news-aside-block__item">
+        <span>30/09</span><span>10:40</span>
+        <p>В Туле пройдет деловой вечер вопросов и ответов «Оспаривание сделок в банкротстве»</p>
+    </div>
+</div>
+
+
+            </div>
+
+        </aside>
+        <main class="content-block"></main>
+        <aside class="right-block"></aside>
+    </div>
+    <script src="js/app.min.js?_v=20221102154810"></script>
 </body>
 </html>

@@ -1,0 +1,19 @@
+.currencies-block {
+    &__title {
+        font-weight: 720;
+    }
+    &__table {
+        font-weight: 500;
+        font-size: 16px;
+        width: 100%;
+        padding-bottom: 24px;
+        border-bottom: 1px solid #E6E6E6;
+        margin-bottom: 20px;
+    }
+    &__table tr td:nth-child(2) {
+        color: #797979;
+    }
+    &__table tr td:nth-child(4) {
+        color: #12D755;
+    }
+}

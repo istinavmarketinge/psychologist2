@@ -1,0 +1,20 @@
+.logo-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    &__image {
+        width: 100%;
+    }
+    &__name {
+        width: 60%;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    &__name span {
+        display: block;
+    }
+    &__name span:first-child {
+        color: #05598F;
+    }
+}

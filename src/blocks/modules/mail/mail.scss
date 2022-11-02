@@ -1,0 +1,22 @@
+.mail-block {
+    background: url(/img/bg-lists.png) 0 0 no-repeat;
+    background-position: 17% 45%;
+    width: 100%;
+    &__letter {
+        width: 153px;
+        background: #05598F;
+    }
+    &__letter img {
+        display: table-caption;
+        margin: 0 auto;
+        padding: 48px 7px 21px 8px;
+    }
+    &__letter span {
+        display: block;
+        color: #fff;
+        font-weight: 720;
+        font-size: 16px;
+        text-align: center;
+        padding-bottom: 21px;
+    }
+}
