@@ -23,15 +23,35 @@
                 @@include('blocks/modules/news-aside/news-aside.html', {})
                 @@include('blocks/modules/business/business.html', {})
                 @@include('blocks/modules/brands/brands.html', {})
-
-
+                @@include('blocks/modules/jurnal/jurnal.html', {})
 
             </div>
 
         </aside>
-        <main class="content-block"></main>
-        <aside class="right-block"></aside>
+        <main class="content-block">
+            <div class="content-container">
+            @@include('blocks/modules/notification/notification.html', {})
+            @@include('blocks/modules/main-first-news/main-first-news.html', {})
+            @@include('blocks/modules/main-white-news/main-white-news.html', {})
+            @@include('blocks/modules/big-news-list/big-news-list.html', {})
+
+        </div>
+        </main>
+        <aside class="right-block">
+            <div class="right-container">
+            @@include('blocks/modules/social-network/social-network.html', {})
+            @@include('blocks/modules/banner-right/banner-right.html', {})
+            @@include('blocks/modules/calendar/calendar.html', {})
+            @@include('blocks/modules/top-five/top-five.html', {})
+            @@include('blocks/modules/tags/tags.html', {})
+        </div>
+        </aside>
     </div>
+    <footer>
+        <div class="footer-container">
+        @@include('blocks/modules/footer/footer.html', {})
+    </div>
+    </footer>
     <script src="js/app.min.js"></script>
 </body>
 </html>

@@ -1,4 +1,6 @@
 .news-aside-block {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #E6E6E6;
     &__title {
         font-size: 22px;
         font-weight: 720;
@@ -16,11 +18,15 @@
         margin-right: 6px;
     }
     &__item p {
-        font-weight: 500;
+        font-weight: 400;
         line-height: 20px;
         margin: 0;
     }
     &__item {
         margin-bottom: 17px;
     }
+}
+
+.news-aside-block:nth-last-child(-n+2) {
+    border-bottom: none
 }

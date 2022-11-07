@@ -1,0 +1,91 @@
+.footer-logo-flex {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    border-bottom: 1px solid #445661;
+    &__logo {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+    }
+    &__image {
+        width: 100%;
+    }
+    &__name {
+        width: 60%;
+        font-size: 16px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    &__name span {
+        display: block;
+        color: #fff;
+    }
+    &__menu-list {
+        display: flex;
+        list-style: none;
+    }
+    &__menu-list li {
+        color: #fff;
+        margin-right: 17px;
+    }
+    &__years span {
+        color: #fff;
+    }
+    
+}
+.footer-info-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 23px;
+    &__left p {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    &__item table {
+        max-width: 614px;
+        margin-top: 30px;
+    }
+    &__item table tr{
+        margin-bottom: 3px;
+    }
+    &__item table td {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+        width: 50%
+    }
+    &__right {
+        max-width: 749px;
+    }
+    &__right p {
+        font-size: 15px;
+        color: #fff;
+        font-weight: 400;
+    }
+}
+.footer-bottom-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-bottom: 40px;
+    &__left p {
+        color: #fff;
+        font-weight: 400;
+    }
+}
+@media(max-width: 1420px) {
+    .footer-info-flex {
+        flex-direction: column;
+    }
+    .footer-info-flex__right {
+        max-width: 100%;
+    }
+    .footer-info-flex__left {
+        margin-bottom: 30px;
+    }
+}

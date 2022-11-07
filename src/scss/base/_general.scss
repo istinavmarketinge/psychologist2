@@ -1,6 +1,7 @@
 * {
     scroll-behavior: smooth;
-    font-family: "ALSHauss";
+    // font-family: "ALSHauss";
+    font-family: "_";
     color: #000;
     font-size: 16px;
 }
@@ -11,16 +12,63 @@ a {
     display: flex;
 }
 .left-block {
-    width: $aside-left-width;
+    width: 23%;
+    // max-width: $aside-left-width;
 }
 .right-block {
-    width: $aside-right-width;
+    // max-width: $aside-right-width;
+    width: 31%;
 }
 .content-block {
-    flex: 1 1 auto;
-    max-width: calc(100% - $aside-left-width - $aside-right-width);
+    // flex: 1 1 auto;
+    // max-width: calc(100% - $aside-left-width - $aside-right-width);
+    width: 47%;
+    border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
 }
 .left-container {
     max-width: 240px;
     margin: 0 auto
+}
+.right-container {
+    max-width: 420px;
+    margin: 0 auto;
+}
+.content-container {
+    max-width: 733px;
+    width: 100%;
+    margin: 0 auto;
+}
+footer {
+    background: #0D2737;
+    padding: 0 81px 0 101px;
+}
+// .footer-container {
+//     max-width: 1737px;
+//     margin: 0 auto;
+// }
+@media(max-width: 1650px) {
+    .content-container {
+        max-width: 600px;
+    }
+    .right-container {
+        max-width: 360px;
+    }
+    .left-container {
+        max-width: 200px;
+    }
+}
+@media(max-width: 1350px) {
+    .right-block, .left-block {
+        width: 20%;
+    }
+    .content-block {
+        width: 56%;
+    }
+    .right-block {
+        margin-left: 20px;
+    }
+    .left-block {
+        margin-right: 20px;
+    }
 }

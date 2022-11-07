@@ -1,0 +1,27 @@
+.top-five-block {
+    border-bottom: 1px solid #E6E6E6;
+    h2 {
+        margin-bottom: 14px;
+        font-size: 22px;
+    }
+    &__item {
+        margin-bottom: 17px;
+        p {
+            line-height: 20px;
+            font-weight: 400;
+        }
+    }
+    &__item span{
+        margin-right: 6px;
+        color: #797979;
+        font-size: 12px;
+    }
+    img {
+        width: 100%;
+    }
+}
+.analitics img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 17px;
+}

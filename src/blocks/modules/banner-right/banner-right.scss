@@ -1,0 +1,45 @@
+.banner-right-block {
+    position: relative;
+    background: url(/img/banner2.jpg) 0 0 no-repeat;
+    width: 100%;
+    max-width: 300px;
+    padding-bottom: 50px;
+    &__blue, &__white  {
+        color: #9BDEFF;
+        text-transform: uppercase;
+        font-size: 32px;
+        font-weight: 720;
+        max-width: 223px;
+        display: block;
+    }
+    &__white {
+        color: #fff;
+        margin: 0px 38px 134px 38px;
+    }
+    &__blue {
+        padding-top: 97px;
+        margin: 0px 38px 31px 38px;
+    }
+    &__white span {
+        border-bottom: 2px solid #fff;
+        font-size: 32px;
+        color: #fff;
+        font-weight: 720;
+    }
+    button {
+        background: #05598F;
+        text-transform: uppercase;
+        border: none;
+        color: #fff;
+        padding: 14px 43px;
+        margin: 0 auto;
+        display: block;
+        font-weight: 550;
+        font-size: 17px;
+    }
+}
+@media(max-width: 1350px) {
+    .banner-right-block__blue, .banner-right-block__white {
+        font-size: 24px;
+    }
+}

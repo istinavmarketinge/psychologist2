@@ -1,0 +1,23 @@
+.notification-block {
+    position: relative;
+    max-width: 733px;
+    width: 100%;
+    background: #E5F5FF;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    a {
+        text-decoration: underline;
+    }
+    &__close {
+        position: absolute;
+        top: 3px;
+        right: 5px;
+    }
+    &__text {
+        display: block;
+    }
+}
